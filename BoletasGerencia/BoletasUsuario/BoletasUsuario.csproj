@@ -203,6 +203,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteAusencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteAusencia.Designer.cs">
+      <DependentUpon>ReporteAusencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReporteEntradaTarde.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,6 +220,18 @@
     </Compile>
     <Compile Include="ReporteHorario.Designer.cs">
       <DependentUpon>ReporteHorario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteJornadaIncompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReporteJornadaIncompleta.Designer.cs">
+      <DependentUpon>ReporteJornadaIncompleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePresencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportePresencia.Designer.cs">
+      <DependentUpon>ReportePresencia.cs</DependentUpon>
     </Compile>
     <Compile Include="ReporteSalidaPrevia.cs">
       <SubType>Form</SubType>
@@ -325,11 +343,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReporteAusencia.resx">
+      <DependentUpon>ReporteAusencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReporteEntradaTarde.resx">
       <DependentUpon>ReporteEntradaTarde.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteHorario.resx">
       <DependentUpon>ReporteHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReporteJornadaIncompleta.resx">
+      <DependentUpon>ReporteJornadaIncompleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportePresencia.resx">
+      <DependentUpon>ReportePresencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReporteSalidaPrevia.resx">
       <DependentUpon>ReporteSalidaPrevia.cs</DependentUpon>
