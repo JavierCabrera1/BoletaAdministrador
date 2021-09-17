@@ -44,5 +44,26 @@ namespace BoletasUsuario
             ReporteSalidaPrevia reporteSalidaPrevia = new ReporteSalidaPrevia();
             reporteSalidaPrevia.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ReporteAusencia re = new ReporteAusencia();
+            re.Show();
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ReporteJornadaIncompleta rep = new ReporteJornadaIncompleta();
+            rep.Show();
+            
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ReportePresencia r = new ReportePresencia();
+            r.Show();
+            
+        }
     }
 }
